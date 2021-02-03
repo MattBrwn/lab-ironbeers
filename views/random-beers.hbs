@@ -1,0 +1,9 @@
+<h1>Random Beers page</h1>
+{{#each responseFromApi}}
+    {{this.image_url}}
+    {{this.name}}
+    {{this.description}}
+    {{this.tagline}}
+    {{this.food_pairing}}
+    {{this.brewer_tips}}
+{{/each}}
